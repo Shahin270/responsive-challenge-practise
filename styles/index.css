@@ -140,6 +140,39 @@ header{
     padding: 10px;
     
 }
+.discount-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fef6f8;
+    margin-top: 80px;
+}
+.discount-title{
+    font-size: 30px;
+    
+}
+.discount-description{
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    padding: 20%;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+.discount-parent{
+    justify-content: center;
+    text-align: center;
+
+}
+.discount{
+    color: #E55473;
+}
+.image-pot{
+    height: 400px;
+    width: 100%;
+ 
+}
 
 
 
@@ -194,7 +227,7 @@ header{
 
     }
     .third-image{
-        height: 50vh;
+        height: 40vh;
         width: 200px;
     }
 
@@ -239,6 +272,10 @@ header{
     margin-left: 18%;
     margin-right: 18%;
    
+   }
+   .discount-container{
+    flex-direction: column;
+    gap: 30px;
    }
     
 }
