@@ -1,0 +1,163 @@
+header{
+    margin: 0px;
+}
+
+
+
+
+
+.flower-parent{
+    background-color: #fceef1;
+    display:flex;
+   
+    
+}
+.Flower-title{
+    
+    align-items: center;
+    font-size: 60px;
+    font-weight:800;
+    align-content: center;
+    
+}
+.flower{
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.banner-pic{
+    height: 100vh;
+    align-items: center;
+    margin-right: 40px;
+    margin-bottom: 0;
+    
+}
+.flower-description{
+    padding-right: 80px;
+    font-size: 18px;
+
+}
+.banner-button{
+    background-color: #E55473;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    
+
+}
+.feature-flower{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.feature-title{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.feature-description{
+    font-size: 16px;
+}
+
+
+
+.three-image{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    
+    height: 90vh;
+    
+    margin-right: 80px;
+    margin-left: 80px;
+    align-content: center;
+    text-align: center;
+
+}
+.first-image{
+    height: 50vh;
+    background-color: aquamarine;
+    padding: 25px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    
+    
+}
+.second-image{
+    height: 50vh;
+    background-color: aqua;
+    padding: 25px;
+    width: 200px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+}
+.third-image{
+    height: 50vh;
+    background-color: #E55473;
+   
+    width: 200px;
+    padding: 25px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    
+   
+}
+.describe-feature{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .flower-parent{
+       flex-direction: column;
+      
+    }
+    .three-image{
+        grid-template-columns: 1fr;
+        height: auto;
+        width: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0;
+
+    }
+    
+
+
+
+    .banner-pic{
+        height: 50vh;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+
+    }
+   .feature-description{
+    margin-bottom: 300px;
+
+   }
+   .Flower-title{
+    font-size: 26px;
+    padding: 10px;
+    margin: 0px;
+
+   }
+   .feature-title{
+    font-size: 26px;
+   }
+    
+}
