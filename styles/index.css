@@ -109,6 +109,9 @@ header{
 .describe-feature{
     font-size: 20px;
 }
+.first-image-title , .second-image-title , .third-image-title{
+    text-decoration: underline;
+}
 
 
 
@@ -142,16 +145,16 @@ header{
 
     }
     .first-image{
-        height: 40vh;
+        height: 50vh;
         width: 250px;
     }
     .second-image{
-        height: 40vh;
+        height: 50vh;
         width: 250px;
 
     }
     .third-image{
-        height: 40vh;
+        height: 50vh;
         width: 250px;
     }
 
@@ -180,6 +183,9 @@ header{
    .flower-description{
     padding: 10px;
     font-size: 16px;
+   }
+   .describe-feature{
+    padding: 20px;
    }
     
 }
