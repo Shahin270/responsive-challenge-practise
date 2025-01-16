@@ -173,6 +173,24 @@ header{
     width: 100%;
  
 }
+.all-image{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    
+  
+    
+}
+.images{
+    width: 100%;
+   
+    
+}
+
+
 
 
 
