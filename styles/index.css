@@ -124,7 +124,12 @@ header{
 @media screen and (max-width:576px) {
     .flower-parent{
        flex-direction: column;
+       gap: 60px;
       
+    }
+    .flower{
+        padding: 0;
+        text-align: center;
     }
     .three-image{
         grid-template-columns: 1fr;
@@ -133,9 +138,22 @@ header{
         margin-left: 0px;
         margin-right: 0px;
         padding: 0;
+        gap: 20px;
 
     }
-    
+    .first-image{
+        height: 40vh;
+        width: 250px;
+    }
+    .second-image{
+        height: 40vh;
+        width: 250px;
+
+    }
+    .third-image{
+        height: 40vh;
+        width: 250px;
+    }
 
 
 
@@ -158,6 +176,10 @@ header{
    }
    .feature-title{
     font-size: 26px;
+   }
+   .flower-description{
+    padding: 10px;
+    font-size: 16px;
    }
     
 }
